@@ -1,5 +1,0 @@
-Parametri iniziali per la stampante di Arduino. Non modificare il file.
-Penna su:	  155
-Penna giù:	  129
-Direzione asse X:	  1
-Direzione asse Y:	  1

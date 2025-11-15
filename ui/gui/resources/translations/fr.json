@@ -1,0 +1,47 @@
+{
+    "app_name": "Imprimante CNC Arduino",
+    "menu": {
+        "file": "Fichier",
+        "edit": "Édition",
+        "view": "Affichage",
+        "tools": "Outils",
+        "help": "Aide"
+    },
+    "buttons": {
+        "connect": "Connecter",
+        "disconnect": "Déconnecter",
+        "start": "Démarrer",
+        "stop": "Arrêter",
+        "pause": "Pause",
+        "resume": "Reprendre",
+        "calibrate": "Calibrer",
+        "load_image": "Charger Image",
+        "save_gcode": "Enregistrer G-code",
+        "print": "Imprimer"
+    },
+    "labels": {
+        "port": "Port:",
+        "status": "État:",
+        "progress": "Progrès:",
+        "mode": "Mode:",
+        "quality": "Qualité:",
+        "work_area": "Zone de Travail:"
+    },
+    "status": {
+        "idle": "Inactif",
+        "connected": "Connecté",
+        "disconnected": "Déconnecté",
+        "printing": "Impression",
+        "paused": "En pause",
+        "complete": "Terminé",
+        "error": "Erreur"
+    },
+    "messages": {
+        "connection_success": "Connexion réussie",
+        "connection_failed": "Échec de connexion",
+        "print_complete": "Impression terminée avec succès",
+        "print_failed": "Échec d'impression",
+        "no_image_loaded": "Aucune image chargée",
+        "invalid_gcode": "G-code invalide"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "app_name": "Stampante CNC Arduino",
+    "menu": {
+        "file": "File",
+        "edit": "Modifica",
+        "view": "Visualizza",
+        "tools": "Strumenti",
+        "help": "Aiuto"
+    },
+    "buttons": {
+        "connect": "Connetti",
+        "disconnect": "Disconnetti",
+        "start": "Avvia",
+        "stop": "Ferma",
+        "pause": "Pausa",
+        "resume": "Riprendi",
+        "calibrate": "Calibra",
+        "load_image": "Carica Immagine",
+        "save_gcode": "Salva G-code",
+        "print": "Stampa"
+    },
+    "labels": {
+        "port": "Porta:",
+        "status": "Stato:",
+        "progress": "Progresso:",
+        "mode": "Modalità:",
+        "quality": "Qualità:",
+        "work_area": "Area di Lavoro:"
+    },
+    "status": {
+        "idle": "Inattivo",
+        "connected": "Connesso",
+        "disconnected": "Disconnesso",
+        "printing": "Stampa in corso",
+        "paused": "In pausa",
+        "complete": "Completato",
+        "error": "Errore"
+    },
+    "messages": {
+        "connection_success": "Connessione riuscita",
+        "connection_failed": "Connessione fallita",
+        "print_complete": "Stampa completata con successo",
+        "print_failed": "Stampa fallita",
+        "no_image_loaded": "Nessuna immagine caricata",
+        "invalid_gcode": "G-code non valido"
+    }
+}

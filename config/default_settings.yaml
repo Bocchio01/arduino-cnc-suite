@@ -1,0 +1,40 @@
+# Default Printer Settings
+printer:
+  name: "Arduino CNC Suite"
+  model: "AFMotor Shield"
+
+serial:
+  port: "COM3" # Default port
+  baudrate: 115200
+  timeout: 10
+
+calibration:
+  pen_up_angle: 90
+  pen_down_angle: 120
+  pen_servo_pin: 9
+  pen_lift_delay: 300 # milliseconds
+
+  # Direction multipliers (1 or -1)
+  x_direction: 1
+  y_direction: 1
+
+  # Steps per mm
+  steps_per_mm_x: 80
+  steps_per_mm_y: 80
+
+  # Work area (mm)
+  max_x: 250
+  max_y: 250
+
+  # Movement speeds (mm/min)
+  default_speed: 1000
+  rapid_speed: 3000
+
+image_processing:
+  default_quality: 100
+  canvas_size: 500
+
+gcode:
+  use_relative_coordinates: false
+  add_comments: true
+  line_ending: "\n"

@@ -1,0 +1,47 @@
+{
+    "app_name": "Arduino CNC Suite",
+    "menu": {
+        "file": "File",
+        "edit": "Edit",
+        "view": "View",
+        "tools": "Tools",
+        "help": "Help"
+    },
+    "buttons": {
+        "connect": "Connect",
+        "disconnect": "Disconnect",
+        "start": "Start",
+        "stop": "Stop",
+        "pause": "Pause",
+        "resume": "Resume",
+        "calibrate": "Calibrate",
+        "load_image": "Load Image",
+        "save_gcode": "Save G-code",
+        "print": "Print"
+    },
+    "labels": {
+        "port": "Port:",
+        "status": "Status:",
+        "progress": "Progress:",
+        "mode": "Mode:",
+        "quality": "Quality:",
+        "work_area": "Work Area:"
+    },
+    "status": {
+        "idle": "Idle",
+        "connected": "Connected",
+        "disconnected": "Disconnected",
+        "printing": "Printing",
+        "paused": "Paused",
+        "complete": "Complete",
+        "error": "Error"
+    },
+    "messages": {
+        "connection_success": "Connected successfully",
+        "connection_failed": "Connection failed",
+        "print_complete": "Print completed successfully",
+        "print_failed": "Print failed",
+        "no_image_loaded": "No image loaded",
+        "invalid_gcode": "Invalid G-code"
+    }
+}

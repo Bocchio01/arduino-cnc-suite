@@ -1,0 +1,26 @@
+name: "Default AFMotor Suite"
+description: "Standard configuration for Arduino with AFMotor shield"
+
+hardware:
+  controller: "Arduino Uno"
+  shield: "Adafruit Motor Shield v2"
+  stepper_motor_1: "NEMA 17"
+  stepper_motor_2: "NEMA 17"
+  servo: "SG90"
+
+pins:
+  stepper_x_port: 1 # AFMotor port M1/M2
+  stepper_y_port: 2 # AFMotor port M3/M4
+  servo_pin: 9
+
+steps_per_revolution: 200
+microsteps: 8
+
+belt_pitch: 2 # mm (GT2 belt)
+pulley_teeth: 20
+
+# Calculated: steps_per_mm = (steps * microsteps) / (belt_pitch * teeth)
+# = (200 * 8) / (2 * 20) = 40
+steps_per_mm:
+  x: 40
+  y: 40

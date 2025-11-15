@@ -1,0 +1,23 @@
+# Core dependencies
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+pyserial>=3.5
+
+# Configuration
+pyyaml>=6.0
+pydantic>=2.0.0
+
+# CLI
+click>=8.1.0
+rich>=13.0.0
+
+# GUI
+PySide6>=6.5.0
+
+# Development
+pytest>=7.4.0
+pytest-mock>=3.11.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
